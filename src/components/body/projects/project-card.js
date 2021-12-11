@@ -17,13 +17,19 @@ function ProjectCard({ project }) {
           {project.github && (
             <a className="project-link" href={project.github}>
               <div className="link-button">
-                <i class="fas fa-globe"></i>Github
+                <i class="devicon-github-original"></i>Github
               </div>
             </a>
           )}
         </div>
+        <p>{project.about}</p>
+        <div className="project-tags">
+          {project.tags.map((tag) => {
+            return <label className="tag">{tag}</label>;
+          })}
+        </div>
       </div>
-      <img src={project.image} className="project-photo" />
+      <img src={project.image} alt="take screen shot of actual project" className="project-photo" />
     </div>
   );
 }

@@ -1,0 +1,13 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contact-container {
+    align-self: center;
+}

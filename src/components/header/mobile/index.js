@@ -5,7 +5,7 @@ function Mobile({ isOpen, setIsOpen }) {
   return (
     <div className="mobile">
       <div className="close-icon" onClick={() => setIsOpen(!isOpen)}>
-        <i class="far fa-times-circle option-icon"></i>
+        <i class="fas fa-times option-icon"></i>
       </div>
       <div className="mobile-options">
         <div className="mobile-option">

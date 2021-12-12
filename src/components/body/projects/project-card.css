@@ -9,6 +9,7 @@
 
 .project-photo {
   width: 40%;
+  border-radius: 20px;
 }
 
 .project-info {
@@ -32,6 +33,7 @@
   border-radius: 4px;
   margin-right: 6px;
   margin-bottom: 4px;
+  color: black;
 }
 
 .project-links a {

@@ -44,6 +44,6 @@
   }
 }
 
-.font-medium {
-  color: rgb(76, 117, 72);
+i {
+  font-weight: bold;
 }

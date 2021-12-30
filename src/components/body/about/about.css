@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
 .about {
-  padding-bottom: 48px;
+  padding-bottom: 10px;
 }
 
 .about-top {
@@ -11,35 +11,39 @@
 }
 
 .picture {
-    height: 420px;
+  height: 420px;
 }
 
 .about-info {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .info-name {
-    color: blue;
-    font-size: 32px;
-    font-family: 'Roboto Slab', serif;
+  color: blue;
+  font-size: 40px;
+  font-family: "Roboto Slab", serif;
 }
 
 @media only screen and (max-width: 720px) {
-    .about-top {
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-    }
+  .about-top {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .picture {
-        height: 300px;
-    }
+  .picture {
+    height: 300px;
+  }
 
-    .about-info {
-        font-size: 20px;
-    }
+  .about-info {
+    font-size: 20px;
+  }
 
-    .info-name {
-        font-size: 25px;
-    }
+  .info-name {
+    font-size: 25px;
+  }
+}
+
+.font-medium {
+  color: rgb(76, 117, 72);
 }

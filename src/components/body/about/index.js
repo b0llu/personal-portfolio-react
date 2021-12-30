@@ -8,8 +8,19 @@ function About() {
       <div className="about-top">
         <div className="about-info">
           Hello There 👋, I am <br />{" "}
-          <span className="info-name">Dhruv Samant</span>. <br /> I am a full
-          stack web developer who loves working on frontend.
+          <span className="info-name">Dhruv Samant</span>. <br /> A Web
+          Developer passionate about publishing new and useful products,
+          enhancing the internet experience for the users.
+          <br />
+          <h1></h1>I started my web development journey in September, 2021.
+          Since then I have learnt new technologies and acquired Skills like
+          <span className="font-medium">
+            {" "}
+            Javascript, ReactJS, MongoDB, Express, Node, GraphQL, Hasura,
+            PostgreSQL, NextJS, Typescript and Jest.
+          </span>
+          <h1></h1>I believe in showing a proof of my work, rather than listing
+          my skills on a shiny piece of paper. Some of my works are shown below.
         </div>
         <div className="about-photo">
           <img
@@ -18,7 +29,6 @@ function About() {
           />
         </div>
       </div>
-      <SocialContact />
     </div>
   );
 }
